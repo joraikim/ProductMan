@@ -1,0 +1,169 @@
+body {
+	background-color: #eeeeee;
+}
+
+
+* {
+	box-sizing: border-box;
+}
+
+header {
+	padding-bottom: 30px;
+	
+}
+
+
+
+
+.container {
+	max-width: 1198px;
+	margin: 0 auto;
+	padding: 0 10px;
+	
+}
+
+
+.logo {
+	
+	display: inline-block;
+	vertical-align: middle;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	color: #303030;
+	
+}
+
+.logo h1:hover {
+	color: red;
+}
+
+.navigation {
+	
+	display: inline-block;
+	width: 80%;
+	vertical-align: middle;
+	
+	
+}
+
+.menu {
+	list-style: none;
+    padding-left: 0;
+    margin: 0;
+    text-align: right;
+}
+
+.menu li {
+	display: inline-block;
+	margin-right: 70px;
+}
+
+.menu li a {
+    font-family: 'Roboto', sans-serif;
+	color: #303030;
+    font-weight: 400;
+    text-decoration: none;
+    transition: color .3s ease;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu li a:hover {
+	color: red;
+}
+
+.slider {
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+.slider .container {
+    font-size: 0;
+}
+
+
+
+.slider .slider-colums {
+	vertical-align: middle;
+	display: inline-block;
+ 	width: 50%;
+ }
+
+ .slider .info {
+ 	text-align: right;
+    padding-right: 9%;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.slider .title {
+	font-family: 'Raleway', sans-serif;
+    font-size: 117px;
+    font-weight: 900;
+    line-height: 117px;
+    margin-top: 0;
+    margin-bottom: 22px;
+}
+
+.slider .text {
+font-family: 'Roboto', sans-serif;
+font-size: 24px;
+font-weight: 300;
+line-height: 36px;
+
+}
+
+.slider .text1 {
+font-family: 'Roboto', sans-serif;
+color:  #e10011;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+}
+
+
+.slide-nav {
+ 	padding-top: 70px;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    font-size: 0;
+    text-align: center;
+}
+
+.slide-nav li{
+	display: inline-block;
+    font-size: 16px;
+}
+.slide-nav button span{
+	visibility: hidden;
+	position: absolute;
+}
+.slide-nav button{
+	position: relative;
+	width: 14px;
+    height: 14px;
+    padding: 0;
+    border-radius: 50px;
+    border: 0;
+    background-color: black;
+    transition: all .3s ease;
+}
+.slide-nav button.active{
+	background-color: red; 
+	
+}
+.slide-nav button:focus {
+	outline: none;
+}
+.slide-nav button:hover {
+	cursor: pointer;
+	background-color: red;
+}
+
+.slide-nav li:nth-child(2) button {
+	margin: 0 7px;
